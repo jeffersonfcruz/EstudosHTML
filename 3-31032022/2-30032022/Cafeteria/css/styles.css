@@ -129,3 +129,39 @@ iframe {
   height: 500px;
   margin: 20px;
 }
+/*----------------------- Fim do estilo da historia ----------------------- */
+/*----------------------- Inicio do estilo do cardapio ----------------------- */
+h3 {
+  font-family: Arial;
+  font-size: 12pt;
+  margin: 30px;
+}
+#linha {
+  padding: 30px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* quebra de linha */
+  box-shadow: 2px 2px 5px black;
+  justify-content: center;
+}
+#linha div {
+  width: 30%;
+  margin: 10px;
+  /* borda na div */
+  border: 1px solid black;
+}
+#linha div img {
+  width: 100%;
+}
+#linha div h4 {
+  font-family: arial;
+  font-size: 15pt;
+  margin: 10px;
+}
+#linha div p {
+  font-family: arial;
+  font-size: 15pt;
+  color: red;
+  font-weight: bold;
+}
