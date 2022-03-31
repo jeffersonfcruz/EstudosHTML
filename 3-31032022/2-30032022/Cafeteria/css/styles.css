@@ -69,3 +69,39 @@ footer div {
   width: 51px;
   height: 51px;
 }
+/*----------------------- Inicio do css da HOME ----------------------- */
+h2 {
+  font-family: "arial";
+  font-size: 20pt;
+  margin: 50px;
+  border-bottom: 5px solid khaki;
+  margin-left: auto;
+  margin-right: auto;
+}
+#home p {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: verdana;
+  font-size: 12pt;
+  /* espaçamento entre linhas */
+  line-height: 15pt;
+  text-align: justify;
+}
+#imghome {
+  text-align: center;
+}
+#imghome img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 100px;
+  opacity: 0.7;
+  transition: ease 0.5s;
+  /* mudar o pónteiro do mouse para uma mão */
+  cursor: pointer;
+}
+#imghome img:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
