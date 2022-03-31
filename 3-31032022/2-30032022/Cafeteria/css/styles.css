@@ -1,0 +1,71 @@
+/*
+Arquivo CSS para formatação do site da cafeteria
+*/
+
+/*
+Aplicar a formatação a todos os elementos. Usaremos o asterisco(*)
+*/
+* {
+  /*zerar as margens externas dos elementos*/
+  margin: 0;
+  /*zerar as margens internas dos elementos*/
+  padding: 0;
+  /*ajuste das caixas(box) dos elementos*/
+  box-sizing: border-box;
+}
+header {
+  height: 300px; /*altura da caixa*/
+  background-image: url(../img/cafe1.jpg); /*adicionar uma imagem ao fundo*/
+  background-size: 100%; /*ajustar a largura da imagem em 100%*/
+  background-position: 0 -300px; /*ajustar a posição em x e y da largura de fundo*/
+  transition: ease 1s;
+  padding-top: 100px; /*ajustar a posição da margem superior do titulo*/
+}
+h1 {
+  text-align: center;
+  font-family: "Verdana";
+  color: turquoise;
+  text-shadow: 15px 10px 5px black;
+}
+nav {
+  background-color: khaki;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block; /*dispor os itens da lista li em linha*/
+  padding: 10px; /*aumentar a distancia entre os elementos*/
+  transition: ease 1s;
+}
+nav ul li:hover {
+  background-color: snow; /*ao passar o mouse sobre o link deve alterar sua cor*/
+}
+nav ul li a {
+  font-family: "verdana";
+  font-size: 10pt;
+  color: black;
+  text-decoration: none; /*retirar o underline do link | nenhum*/
+}
+footer {
+  height: 300px; /*altura em pixels*/
+  background-color: black;
+  color: white;
+  font-family: "arial";
+  padding-top: 50px;
+  /*Dispor de forma flexivel e em linha*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+footer div {
+  width: 20%;
+  margin: 20px;
+}
+#redes ul li {
+  display: inline-block;
+  margin-left: 5px;
+}
+#redes ul li a img {
+  width: 51px;
+  height: 51px;
+}
