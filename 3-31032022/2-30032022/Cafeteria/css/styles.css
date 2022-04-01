@@ -75,8 +75,6 @@ h2 {
   font-size: 20pt;
   margin: 50px;
   border-bottom: 5px solid khaki;
-  margin-left: auto;
-  margin-right: auto;
 }
 #home p {
   width: 80%;
@@ -164,4 +162,47 @@ h3 {
   font-size: 15pt;
   color: red;
   font-weight: bold;
+}
+/*----------------------- Fim do estilo do cardapio ----------------------- */
+/*----------------------- Formatação CSS para pagina contato ----------------------- */
+main form {
+  width: 40%;
+  padding: 10px;
+  background-color: khaki;
+  margin-left: auto;
+  margin-right: auto;
+}
+main form input[type="text"],
+main form input[type="email"],
+main form input[type="tel"],
+main form select,
+main form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 0px;
+  border-bottom: 2px solid gray;
+  border-radius: 5px;
+  display: block;
+}
+main form input[type="tel"],
+main form select {
+  width: 30%;
+  display: inline-block;
+  margin: 17px;
+  margin-left: 70px;
+}
+main form textarea {
+  width: 600px;
+  height: 250px;
+  border: 1px solid silver;
+  margin-bottom: 10px;
+}
+main form input[type="submit"] {
+  padding: 0px;
+  border: 0px;
+  background-color: black;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
 }
