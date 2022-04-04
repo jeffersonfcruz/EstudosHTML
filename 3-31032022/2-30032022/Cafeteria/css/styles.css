@@ -210,6 +210,6 @@ main form input[type="submit"] {
 /*----------------------- Final da Formatação CSS para pagina contato ----------------------- */
 /*----------------------- Inicio Formatação CSS para pagina localização ----------------------- */
 #mapa iframe {
-  width: 100%;
-  height: 500px;
+  width: 97%;
+  height: 600px;
 }
