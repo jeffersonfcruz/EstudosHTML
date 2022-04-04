@@ -1,0 +1,28 @@
+body {
+  background-color: aquamarine;
+}
+#container {
+  border: 8px solid red;
+  width: 100%;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+#div1 {
+  background-color: black;
+  flex: 1;
+}
+#div2 {
+  background-color: gray;
+  flex: 0.2;
+}
+#div3 {
+  background-color: blue;
+  flex: 4;
+}
+#div4 {
+  background-color: darkgoldenrod;
+  flex: 1;
+}
