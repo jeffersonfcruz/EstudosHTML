@@ -13,6 +13,9 @@ Aplicar a formatação a todos os elementos. Usaremos o asterisco(*)
   /*ajuste das caixas(box) dos elementos*/
   box-sizing: border-box;
 }
+body {
+  background-color: rgb(0, 255, 255);
+}
 header {
   height: 300px; /*altura da caixa*/
   background-image: url(../img/cafe1.jpg); /*adicionar uma imagem ao fundo*/
@@ -199,8 +202,6 @@ main form select {
   margin-left: 70px;
 }
 main form textarea {
-  width: 615px;
-  height: 150px;
   border: 1px solid silver;
   margin-bottom: 10px;
 }
@@ -264,8 +265,17 @@ main form input[type="submit"] {
   nav ul li {
     display: block;
   }
-  body {
-    background-color: teal;
+  iframe {
+    width: 90%;
+  }
+  #linha {
+    flex-direction: column;
+  }
+  #linha div {
+    width: 80%;
+  }
+  main form {
+    width: 90%;
   }
   #imghome img {
     border-radius: 0px;
@@ -278,6 +288,9 @@ main form input[type="submit"] {
   footer #endereco {
     width: 80%;
     margin: auto;
+  }
+  #mapa iframe {
+    width: 90%;
   }
 }
 
