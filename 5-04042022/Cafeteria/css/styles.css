@@ -21,6 +21,12 @@ header {
   transition: ease 1s;
   padding-top: 100px; /*ajustar a posição da margem superior do titulo*/
 }
+header a,
+#fechar {
+  opacity: 0;
+  transition: ease 0.5s;
+}
+
 h1 {
   text-align: center;
   font-family: "Verdana";
@@ -224,6 +230,26 @@ main form input[type="submit"] {
   header {
     background-size: cover;
     background-position: 0px 0px;
+  }
+  header a {
+    opacity: 1;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: khaki;
+    padding: 10px;
+    text-decoration: none;
+  }
+  #fechar {
+    opacity: 1;
+    color: black;
+    padding: 10px;
+    font-size: 20pt;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    text-decoration: none;
+    transform: rotate(180deg);
   }
   nav {
     width: 130px;
